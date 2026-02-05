@@ -62,7 +62,9 @@ Andrej Karpathy（特斯拉前 AI 总监、OpenAI 联创）在 2025 年 2 月的
 
 Simon Willison 在 2025 年 10 月提出 **Vibe Engineering**——填补 Vibe Coding 和传统工程之间的术语空白：
 
-> "从即兴演奏到指挥编排——你不是写每一行代码，而是设计写代码、检查代码、维护代码的系统。"
+> "Vibe engineering establishes a clear distinction from vibe coding. It signals that this is a different, harder and more sophisticated way of working with AI tools to build production software."
+
+如果说 Vibe Coding 是即兴演奏，Vibe Engineering 就是指挥编排——你不是亲手写每一行代码，而是设计 AI 如何写代码、检查代码、维护代码的系统。
 
 | | Vibe Coding | Vibe Engineering |
 |---|-------------|------------------|
@@ -71,7 +73,7 @@ Simon Willison 在 2025 年 10 月提出 **Vibe Engineering**——填补 Vibe C
 | **验证** | 能跑就行 | 测试驱动、自动化检查 |
 | **适用** | 原型、hackathon | 生产环境 |
 
-**核心原则**：
+**核心原则**（基于 Vibe Engineering 理念提炼）：
 - **AI 作为一等公民**：不只是助手，而是有明确职责的协作者
 - **验证驱动开发**：测试护栏 + 自动化反馈循环
 - **Prompt 即架构**：prompt 是版本控制的架构产物，不是一次性 hack
