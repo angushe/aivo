@@ -15,7 +15,8 @@
 
 | 章节 | 内容 | 时长 |
 |------|------|------|
-| 一 | 开场：8阶段模型 | 5分钟 |
+| — | 背景：Vibe Coding | 2分钟 |
+| 一 | 开场：8阶段模型 | 3分钟 |
 | 二 | 逐阶段详解 + Superpowers | 30分钟 |
 | 三 | MCP：连接外部系统 | 10分钟 |
 | 四 | Skill：定义工作流程 | 15分钟 |
@@ -28,17 +29,45 @@
 
 ---
 
-## 一、开场：8阶段模型（5分钟）
+## 背景：什么是 Vibe Coding？（2分钟）
 
-### 破冰互动（1分钟）
+### 术语来源
 
-快速举手调查，活跃气氛：
+Andrej Karpathy（特斯拉前 AI 总监、OpenAI 联创）在 2025 年 2 月的推文中首次提出：
 
-1. "每天都用 AI 写代码的？" → 预期大部分举手
-2. "用过 Claude Code 的？" → 了解基础
-3. "被 AI 坑过的？" → 引发共鸣 😄
+> "There's a new kind of coding I call 'vibe coding', where you fully give in to the vibes, embrace exponentials, and forget that the code even exists."
 
-> 过渡语："看来大家都有故事。今天我们聊聊怎么让 AI 少坑你、多帮你。"
+### 核心特征
+
+| 特征 | 描述 |
+|------|------|
+| **自然语言驱动** | 用口语描述需求，AI 生成代码 |
+| **忽略实现细节** | "forget that the code even exists" |
+| **拥抱不确定性** | 不逐行审查，相信 AI 输出 |
+| **快速迭代** | 出错就重来，不深究原因 |
+
+### 适用场景 vs 局限
+
+**适合**：
+- 快速原型、验证想法
+- 一次性脚本、小工具
+- 学习新框架/语言
+
+**不适合**：
+- 生产环境代码
+- 需要长期维护的项目
+- 安全敏感场景
+
+### 与本次分享的关系
+
+> Vibe Coding 是起点，不是终点。
+>
+> 本次分享的核心是：如何从"随意 vibe"进化到"有纪律的 Agent 协作"——
+> 既保持 AI 编程的高效，又确保输出的质量和可控性。
+
+---
+
+## 一、开场：8阶段模型（3分钟）
 
 ### 引用来源
 Steve Yegge - [Welcome to Gas Town](https://steve-yegge.medium.com/welcome-to-gas-town-4f25ee16dd04)（2026年1月）
