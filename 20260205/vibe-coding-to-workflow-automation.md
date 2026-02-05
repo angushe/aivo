@@ -15,7 +15,7 @@
 
 | 章节 | 内容 | 时长 |
 |------|------|------|
-| — | 背景：Vibe Coding | 2分钟 |
+| — | 背景：Vibe Coding → Vibe Engineering | 2分钟 |
 | 一 | 开场：8阶段模型 | 3分钟 |
 | 二 | 逐阶段详解 + Superpowers | 30分钟 |
 | 三 | MCP：连接外部系统 | 10分钟 |
@@ -29,7 +29,7 @@
 
 ---
 
-## 背景：什么是 Vibe Coding？（2分钟）
+## 背景：从 Vibe Coding 到 Vibe Engineering（2分钟）
 
 ### 术语来源
 
@@ -58,11 +58,30 @@ Andrej Karpathy（特斯拉前 AI 总监、OpenAI 联创）在 2025 年 2 月的
 - 需要长期维护的项目
 - 安全敏感场景
 
+### Vibe Engineering：成熟版
+
+Simon Willison 在 2025 年 10 月提出 **Vibe Engineering**——填补 Vibe Coding 和传统工程之间的术语空白：
+
+> "从即兴演奏到指挥编排——你不是写每一行代码，而是设计写代码、检查代码、维护代码的系统。"
+
+| | Vibe Coding | Vibe Engineering |
+|---|-------------|------------------|
+| **态度** | 放飞自我，不看代码 | 对产出负责 |
+| **流程** | 即兴发挥 | 结构化编排 |
+| **验证** | 能跑就行 | 测试驱动、自动化检查 |
+| **适用** | 原型、hackathon | 生产环境 |
+
+**核心原则**：
+- **AI 作为一等公民**：不只是助手，而是有明确职责的协作者
+- **验证驱动开发**：测试护栏 + 自动化反馈循环
+- **Prompt 即架构**：prompt 是版本控制的架构产物，不是一次性 hack
+
 ### 与本次分享的关系
 
-> Vibe Coding 是起点，不是终点。
+> **Vibe Coding 是起点，Vibe Engineering 是方向。**
 >
-> 本次分享的核心是：如何从"随意 vibe"进化到"有纪律的 Agent 协作"——
+> 本次分享的核心正是 Vibe Engineering 的实践：
+> 如何从"随意 vibe"进化到"有纪律的 Agent 协作"——
 > 既保持 AI 编程的高效，又确保输出的质量和可控性。
 
 ---
@@ -152,7 +171,7 @@ Yegge 原文将其比作程序员的"AI 进化阶段"（The 8 Stages of Dev Evol
 
 ### Stage 5：CLI单Agent，YOLO（重点）
 
-**工具**：Claude Code、Aider、Goose等CLI工具
+**工具**：Claude Code、Codex、Copilot等CLI工具
 
 **工作模式**：终端里跑Agent，diff滚动而过，你可能看可能不看
 
@@ -1408,6 +1427,12 @@ AI 执行快，你承担结果的责任。
 ---
 
 ### 参考资料
+
+**Vibe Coding / Vibe Engineering**
+- Andrej Karpathy - [Vibe Coding 原始推文](https://x.com/karpathy/status/1886192184808149383)（2025年2月）
+- Simon Willison - [Vibe Engineering](https://simonwillison.net/2025/Oct/7/vibe-engineering/)（2025年10月）
+- [The Vibe Engineering Manifesto](https://www.vibeengineering.ai/p/the-vibe-engineering-manifesto)
+- [Vibe Engineering (Manning 书籍)](https://www.manning.com/books/vibe-engineering) - Tomasz Lelek & Artur Skowroński
 
 **8阶段模型**
 - Steve Yegge - [Welcome to Gas Town](https://steve-yegge.medium.com/welcome-to-gas-town-4f25ee16dd04)
