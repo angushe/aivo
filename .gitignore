@@ -1,0 +1,25 @@
+# macOS
+.DS_Store
+
+# Office temporary files
+~$*
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+*.egg-info/
+dist/
+build/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Environment
+.env
+.venv/
+venv/
